@@ -1,0 +1,92 @@
+.introParagraph {
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    color: black;
+    text-align: left;
+}
+
+.introHeader {
+    font-family: Arial, sans-serif;
+    font-style: bold;
+    font-size: 35px;
+    color: black;
+    background-color: darkslategrey;
+    text-align: left;
+}
+
+.greyBackground {
+    background-color: grey;
+}
+
+body {
+    background-color: rgb(136, 138, 105);
+}
+
+hr {
+    color: black;
+    background-color: black;
+}
+
+.post-preview > a:focus, .post-preview > a:hover {
+  text-decoration: none;
+  color: darkslategrey;
+}
+
+.border-top {
+  border-top: 1px solid black !important;
+}
+
+.aboutmeNavbarUL {
+  text-align: center;
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color: black;
+}
+
+.aboutmeNavbarLI {
+  float: left;
+  flex: 1;
+}
+
+.aboutmeLIA {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+}
+
+li a:hover {
+  text-decoration: underline;
+  color: darkslategrey;
+  background-color: darkgray;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: darkslategrey;
+  background-color: darkgray;
+}
+
+.smallListElement {
+    font-size: 16px;
+    color: rgb(42, 46, 43);
+}
+
+.workItalicize {
+    font-style: italic;
+}
+
+.backToTopAnchor {
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    color: black;
+    text-align: left;
+    text-decoration: underline;
+}
